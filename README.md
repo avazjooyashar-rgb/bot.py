@@ -1,10 +1,10 @@
-# bot.py import telebot
+import telebot
 import yt_dlp
 import os
 import glob
 import time
 
-TOKEN = os.getenv("TOKEN")
+TOKEN = os.getenv("8551612297:AAHCq2bU-IfrR8-JC79BEP9c8c9rBKs9WuI")
 bot = telebot.TeleBot(TOKEN)
 
 
@@ -54,7 +54,6 @@ def handle(m):
 
     file_path = None
 
-    # 3 بار تلاش واقعی
     for i in range(3):
         try:
             file_path = download_yt(url)
