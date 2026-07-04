@@ -4,7 +4,8 @@ import os
 import glob
 import time
 
-TOKEN = os.getenv("8551612297:AAHCq2bU-IfrR8-JC79BEP9c8c9rBKs9WuI")
+TOKEN =
+"8551612297:AAHnXsshYfx35qTRTxu9IXChmY34HxU2Mfk"
 bot = telebot.TeleBot(TOKEN)
 
 
