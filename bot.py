@@ -4,8 +4,7 @@ import os
 import glob
 import time
 
-TOKEN =
-"8551612297:AAHnXsshYfx35qTRTxu9IXChmY34HxU2Mfk"
+TOKEN ="8551612297:AAHnXsshYfx35qTRTxu9IXChmY34HxU2Mfk"
 bot = telebot.TeleBot(TOKEN)
 
 
@@ -80,3 +79,4 @@ def handle(m):
 
 
 bot.infinity_polling(timeout=60, long_polling_timeout=60)
+        
